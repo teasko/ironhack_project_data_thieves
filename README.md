@@ -12,11 +12,11 @@ this is a repo for our project at the ironhack data-analysis bootcamp
 
 
 
-### 1.1 iMBd data dumps
+### 1.1 IMDB data dumps
 
 * source data
 	* source: https://datasets.imdbws.com/
-	* **We used iMBD dumps the following data**
+	* **We used IMDB dumps the following data**
 	* title.basics.tsv
 		* table on titles and basic info
 	*  title.ratings.tsv
@@ -54,9 +54,9 @@ this is a repo for our project at the ironhack data-analysis bootcamp
 	* 12499 rows aka movies
 
 
-    
+### 1.3 TMDB API
 
-    
+
 
     
 
