@@ -55,9 +55,18 @@ this is a repo for our project at the ironhack data-analysis bootcamp
 
 
 ### 1.3 TMDB API
-
-
-
+* source data:
+	* https://developers.themoviedb.org/3/find/find-by-id
+	* data on movies with imdb id and own rating
+	* we scraped all those movies that are in the merge of the imdb and box office data (ca. 8000 movies)
+* **result**: df with 
+	* ca 8000 movies
+	* 90 imdb id's could not be found
+	* 4 columns
+		* imdb id
+		* tmdb rating
+		* tmdb votes
+		* tmdb popularity
     
 
     
