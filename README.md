@@ -1,16 +1,15 @@
 # ironhack_project_data_thieves
-this is a repo for our project at the ironhack data-analysis bootcamp
+This is a repo for our project at the ironhack data-analysis bootcamp. We look at data on movies available from different sources. We take data form
 
+* IMDB
+* TMDB
+* Box Office Mojo
 
-
-
-
+The aim of the project is to collect data with different methods, to merge and to analyze them. We want to see which movies and movie categories are rated highest and make the most revenue. We consider movies from 2000 to 2019.
 
 
 
 ## 1. Data used
-
-
 
 ### 1.1 IMDB data dumps
 
@@ -68,8 +67,25 @@ this is a repo for our project at the ironhack data-analysis bootcamp
 		* tmdb votes
 		* tmdb popularity
     
+## 2. Merged Data
+The final data was merged from the three above datasets. It contains a total of **7968** movies and 13 columns:
+	* imdb_id
+	* title 
+	* isAdult
+	* year
+	* minutes (movie run time)
+	* genres
+	* imdb_rating
+	* imdb_votes
+	* tmdb_rating
+	* tmdb_votes
+	* popularity
+	* worldwide (revenue)
+	* domestic (revenue)
+	
+	
 
-    
+	    
 
    
 
